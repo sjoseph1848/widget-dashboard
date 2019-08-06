@@ -16,6 +16,7 @@ import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { DynamicDashComponent } from './dynamic-dash/containers/dynamic-dash.component';
 
 @NgModule({
   imports: [
@@ -34,7 +35,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     MainComponent,
     HomeComponent,
     DashboardComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    DynamicDashComponent
   ],
   exports: [
     HeaderComponent,
